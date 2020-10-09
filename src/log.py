@@ -14,7 +14,10 @@ def set_logging():
         logging.root.removeHandler(handler)
 
     logging.basicConfig(
-        filename=full_path, level=logging.INFO, format="%(asctime)s %(message)s", datefmt="%H:%M:%S",
+        filename=full_path,
+        level=logging.INFO,
+        format="%(asctime)s %(message)s",
+        datefmt="%H:%M:%S",
     )
 
     # define a Handler which writes INFO messages or higher to the sys.stderr

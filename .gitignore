@@ -133,9 +133,6 @@ dmypy.json
 # PyCharm
 .idea/
 
-# Notebooks
-notebooks/
-*.ipynb
 
 # local settings
 settings.yml
