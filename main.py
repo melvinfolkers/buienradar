@@ -1,11 +1,7 @@
 from src.log import set_logging
-from src.parse_settings import get_settings
 from src import buienradar
 import logging
 from datetime import datetime
-
-settings = get_settings("settings/yml/run_settings.yml")
-
 
 def run():
 
