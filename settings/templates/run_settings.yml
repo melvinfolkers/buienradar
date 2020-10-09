@@ -1,0 +1,5 @@
+# NOTE: this is an example settings file, duplicate this file and rename it to run_settings.yml. place it next to the templates folder in a new folder called "yml"
+# you can define your project settings in that file locally.
+
+refresh: True
+upload: True
