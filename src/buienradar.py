@@ -48,6 +48,7 @@ def get_actuals(data):
     df["sunrise"] = pd.to_datetime(data["sunrise"])
     df["sunset"] = pd.to_datetime(data["sunset"])
     df["timestamp"] = pd.to_datetime(df["timestamp"])
+    df["id"] = df["stationid"].astype(str) + " - " + df["timestamp"].astype(str)
 
     df.drop(columns=["$id", "iconurl", "graphUrl"], inplace=True)
 
